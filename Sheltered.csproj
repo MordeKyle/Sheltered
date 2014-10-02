@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>sheltered.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\sheltered.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>51F9F01AE37A28533DFF094C80475DF7D067F34C</ManifestCertificateThumbprint>
@@ -73,6 +73,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="getUserChoice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="splashScreen.cs" />
@@ -82,11 +83,11 @@
     <None Include="Sheltered_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="favicon.ico" />
+    <Content Include="Resources\favicon.ico" />
     <EmbeddedResource Include="Resources\Displays\splashFile.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="sheltered.ico" />
+    <EmbeddedResource Include="Resources\sheltered.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

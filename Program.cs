@@ -8,10 +8,14 @@ namespace Sheltered
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //testing!!
         {
+            string userInput;
             splashScreen spashScreen = new splashScreen();
             spashScreen.spashOutput();
+            getUserChoice getUserChoice = new getUserChoice();
+            userInput = getUserChoice.getUserInput();
+            Console.WriteLine(userInput);
             Console.Read();
         }
     }
