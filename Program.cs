@@ -10,6 +10,9 @@ namespace Sheltered
     {
         static void Main(string[] args)
         {
+            splashScreen spashScreen = new splashScreen();
+            spashScreen.spashOutput();
+            Console.Read();
         }
     }
 }
